@@ -42,18 +42,18 @@ const Portfolio = () => {
       title: 'Burger Order',
       img: IMG3,
       description:
-        'Fully responsive interactive website built based on Figma design',
+        'This is burger order website',
       technologies: 'React | Redux',
       link: 'https://burger-builder-fea96.web.app/',
       github: 'https://github.com/mobinulislam143/burger-builder',
     },
     {
       id: 5,
-      title: 'World News',
+      title: 'ecommerce',
       img: IMG5,
       description:
-        'Fully responsive interactive website built based on Adobe XD design',
-      technologies: 'JavaScript | CSS',
+        'fake ecommerce website',
+      technologies: 'JavaScript | CSS | React',
       link: 'https://meri-mg.github.io/Unilab-world-news/',
       github: 'https://github.com/mobinulislam143/fakestore',
     },

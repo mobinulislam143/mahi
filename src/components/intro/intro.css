@@ -104,25 +104,3 @@
         margin: 1.5rem 0;
     }
 }
-
-@media screen and (max-width: 450px) {
-    .about__cards {
-        grid-template-columns: repeat(1, 1fr);
-        width: 93%;
-    }
-
-    .about__content {
-        width: 82%;
-        margin: auto;
-    }
-
-    .about__content p {
-        width: 88%;
-        margin: auto;
-    }
-
-    .container {
-        margin: 0;
-    }
-
-}
