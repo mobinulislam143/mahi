@@ -11,10 +11,10 @@ const Contact = () => {
     setMessage(true);
     emailjs
       .sendForm(
-        'service_k2qawqh',
-        'template_c6rkpn6',
+        'service_78u6hyn',
+        'template_u6748rs',
         formRef.current,
-        'X7K7ebhIeOy3YwHki'
+        'riMlUvx_eS5ivAWtU'
       )
       .then(
         (result) => {
@@ -48,13 +48,13 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Your Full Name"
-            name="user_name"
+            name="from_name"
             required
           />
           <input
             type="text"
             placeholder="Your Email"
-            name="user_email"
+            name="from_email"
             required
           />
           <textarea
@@ -66,7 +66,7 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
-          {message && <span>Thanks, I'll reply ASAP :)</span>}
+          {message && <span>Message sent successfully</span>}
         </form>
       </div>
     </section>
