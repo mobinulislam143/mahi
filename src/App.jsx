@@ -7,6 +7,7 @@ import Intro from './components/intro/Intro';
 import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Topbar from './components/topbar/Topbar';
+import Ostad from './components/certificate/Ostad';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Experience />
       <Portfolio />
       {/* <Testimonials /> */}
+      <Ostad/>
       <Contact />
       <Footer />
     </>

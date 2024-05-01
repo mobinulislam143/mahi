@@ -4,6 +4,7 @@ import IMG2 from '../../assets/icard.png';
 import IMG3 from '../../assets/burger.png';
 import IMG4 from '../../assets/chatting.png';
 import IMG5 from '../../assets/store.png';
+import IMG6 from '../../assets/it.png';
 import './portfolio.css';
 
 const Portfolio = () => {
@@ -29,6 +30,16 @@ const Portfolio = () => {
       github: 'https://github.com/mobinulislam143/wishpchat',
     },
     {
+      id: 4,
+      title: 'Burger Order',
+      img: IMG6,
+      description:
+        'Home Agency ui/ux design',
+      technologies: 'React ',
+      link: 'https://strong-muffin-736e08.netlify.app/',
+      github: 'https://github.com/mobinulislam143/module14Assignment',
+    },
+    {
       id: 3,
       title: 'Id card',
       img: IMG2,
@@ -37,26 +48,18 @@ const Portfolio = () => {
       link: 'https://stdidcard.vercel.app/',
       github: 'https://github.com/mobinulislam143/icard',
     },
-    {
-      id: 4,
-      title: 'Burger Order',
-      img: IMG3,
-      description:
-        'This is burger order website',
-      technologies: 'React | Redux',
-      link: 'https://burger-builder-fea96.web.app/',
-      github: 'https://github.com/mobinulislam143/burger-builder',
-    },
-    {
-      id: 5,
-      title: 'ecommerce',
-      img: IMG5,
-      description:
-        'fake ecommerce website',
-      technologies: 'JavaScript | CSS | React',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
-      github: 'https://github.com/mobinulislam143/fakestore',
-    },
+   
+    
+    // {
+    //   id: 5,
+    //   title: 'ecommerce',
+    //   img: IMG5,
+    //   description:
+    //     'fake ecommerce website',
+    //   technologies: 'JavaScript | CSS | React',
+    //   link: 'https://meri-mg.github.io/Unilab-world-news/',
+    //   github: 'https://github.com/mobinulislam143/fakestore',
+    // },
    
   ];
 
@@ -96,6 +99,15 @@ const Portfolio = () => {
             </div>
           </article>
         ))}
+        <article className="portfolio__item" >
+            <div className="portfolio__item-image">
+              <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD-rE53cELL4ncJlhWFjOUImwmRfDL2YyK6OV3xMHraQ&s' alt='imgSkeleton' />
+            </div>
+            <div className="portfolio__item-content">
+              <h3>2+ ecommerce site are comming soon. With fully backend system using MERN</h3>
+            </div>
+            
+          </article>
       </div>
     </section>
   );

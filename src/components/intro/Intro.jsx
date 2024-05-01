@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import ME from '../../assets/me1.jpg';
+import ME from '../../assets/myImg.jpg';
 import './intro.css';
 
 const Intro = () => {
@@ -28,8 +28,10 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-          <p>I’ve spent the last several months in a remote environment, working with HTML, CSS, JavaScript, building everything from landing pages to APIs. My experience as a teacher in an international school helped me collaborate with fellow developers from all over the world. Additionally, working with kids isn’t an easy task, however, it has helped me become efficient, productive, and fast even in a very stressful environment, which is an important skill in the tech industry.</p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+            <p>Welcome to my portfolio website, where innovation meets excellence in web development. As a proficient MERN stack developer, I specialize in architecting robust web solutions driven by API integrations, React for dynamic front-end experiences, Node.js for scalable backend implementations, and MongoDB for seamless data management.
+            
+            With a keen eye for detail and a commitment to delivering high-quality code, I excel in crafting elegant React components that elevate user interactions, designing efficient Node.js APIs for seamless communication between client and server, and executing MongoDB queries with precision to ensure optimal data retrieval and manipulation.</p>
+            <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
     </section>
