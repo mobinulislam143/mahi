@@ -14,7 +14,7 @@ const Header = () => {
           sequence={[
             'Mobinul Islam Mahi',
             1000, 
-            'Mern Stack Devloper',
+            'Mern Stack Developer',
             1000,
           ]}
           wrapper="span"
