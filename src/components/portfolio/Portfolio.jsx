@@ -1,9 +1,7 @@
 import React from 'react';
 import IMG1 from '../../assets/ecommerce.png';
 import IMG2 from '../../assets/icard.png';
-import IMG3 from '../../assets/burger.png';
-import IMG4 from '../../assets/chatting.png';
-import IMG5 from '../../assets/store.png';
+import IMG4 from '../../assets/hmart.png';
 import IMG6 from '../../assets/it.png';
 import './portfolio.css';
 
@@ -11,6 +9,16 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
+      title: 'H Mart',
+      img: IMG4,
+      description:
+        'Full Stack E-commerce Website with ssl-commerze Payment gateway. Services: Login System, email Verification, Add cart, Add Wish, product Filtering using price, keyword, brand and category. There anyone can contact with admin in Contact Page.',
+      technologies: 'React | Zustand | nodejs | Express js| Mongodb',
+      link: 'https://66331c7efffe606cd6d25b2d--verdant-arithmetic-ab580b.netlify.app/',
+      github: 'https://github.com/mobinulislam143/ecommerceRestApi',
+    },
+    {
+      id: 2,
       title: 'Fake Store',
       img: IMG1,
       description:
@@ -19,19 +27,10 @@ const Portfolio = () => {
       link: 'https://mycollection-eight.vercel.app/',
       github: 'https://github.com/mobinulislam143/Lxcollection',
     },
-    {
-      id: 2,
-      title: 'Whishpchats',
-      img: IMG4,
-      description:
-        'Real chatting website',
-      technologies: 'React | Redux',
-      link: 'https://wishpchats.vercel.app/',
-      github: 'https://github.com/mobinulislam143/wishpchat',
-    },
+
     {
       id: 4,
-      title: 'Burger Order',
+      title: 'Home Agency It',
       img: IMG6,
       description:
         'Home Agency ui/ux design',
@@ -49,17 +48,7 @@ const Portfolio = () => {
       github: 'https://github.com/mobinulislam143/icard',
     },
    
-    
-    // {
-    //   id: 5,
-    //   title: 'ecommerce',
-    //   img: IMG5,
-    //   description:
-    //     'fake ecommerce website',
-    //   technologies: 'JavaScript | CSS | React',
-    //   link: 'https://meri-mg.github.io/Unilab-world-news/',
-    //   github: 'https://github.com/mobinulislam143/fakestore',
-    // },
+
    
   ];
 
