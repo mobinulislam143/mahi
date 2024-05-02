@@ -28,7 +28,7 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-            <p>Welcome to my portfolio website, where innovation meets excellence in web development. As a proficient MERN stack developer, I specialize in architecting robust web solutions driven by API integrations, React for dynamic front-end experiences, Node.js for scalable backend implementations, and MongoDB for seamless data management.
+            <p>Welcome to my  website, where innovation meets excellence in web development. As a proficient MERN stack developer, I specialize in architecting robust web solutions driven by API integrations, React for dynamic front-end experiences, Node.js and expressJs for scalable backend implementations, and MongoDB for seamless data management.
             
             With a keen eye for detail and a commitment to delivering high-quality code, I excel in crafting elegant React components that elevate user interactions, designing efficient Node.js APIs for seamless communication between client and server, and executing MongoDB queries with precision to ensure optimal data retrieval and manipulation.</p>
             <a href="#contact" className="btn btn-primary">Let's Talk</a>
