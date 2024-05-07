@@ -23,7 +23,7 @@ const Portfolio = () => {
       title: 'Trade Mark',
       img: IMG5,
       description:
-        'Single page ecommrce page. Services: Login System, email Verification, change profile image, brand and category. ',
+        'Single page ecommrce page. Services: Login System, email Verification, change profile image, brand and category, CRUD Operation in porduct. ',
       technologies: 'Tailwind | Zustand | nodejs | Express js| Mongodb',
       link: 'https://frontend-trade.vercel.app/',
       github: 'https://github.com/mobinulislam143/frontendTrade',
