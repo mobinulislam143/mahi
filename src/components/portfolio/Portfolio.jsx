@@ -15,7 +15,7 @@ const Portfolio = () => {
       description:
         'Full Stack E-commerce Website with ssl-commerze Payment gateway. Services: Login System, email Verification, Add cart, Add Wish, product Filtering using price, keyword, brand and category. There anyone can contact with admin in Contact Page.',
       technologies: 'React | Zustand | nodejs | Express js| Mongodb',
-      link: 'https://66331c7efffe606cd6d25b2d--verdant-arithmetic-ab580b.netlify.app/',
+      link: 'https://h-mart001.vercel.app/',
       github: 'https://github.com/mobinulislam143/ecommerceRestApi',
     },
     {
@@ -77,7 +77,7 @@ const Portfolio = () => {
             <div className="portfolio__item-content">
               <h3>{pro.title}</h3>
               <p>{pro.description}</p>
-              <p style={{marginTop:"8px"}}>Tech:  {pro.technologies}</p>
+              <p>{pro.technologies}</p>
             </div>
             <div className="portfolio__item-cta">
               <a
