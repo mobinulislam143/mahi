@@ -2,6 +2,7 @@ import React from 'react';
 import IMG1 from '../../assets/ecommerce.png';
 import IMG2 from '../../assets/icard.png';
 import IMG4 from '../../assets/hmart.png';
+import IMG5 from '../../assets/trade.png';
 import IMG6 from '../../assets/it.png';
 import './portfolio.css';
 
@@ -19,6 +20,16 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      title: 'Trade Mark',
+      img: IMG5,
+      description:
+        'Single page ecommrce page. Services: Login System, email Verification, change profile image, brand and category. ',
+      technologies: 'Tailwind | Zustand | nodejs | Express js| Mongodb',
+      link: 'https://frontend-trade.vercel.app/',
+      github: 'https://github.com/mobinulislam143/frontendTrade',
+    },
+    {
+      id: 3,
       title: 'Fake Store',
       img: IMG1,
       description:
@@ -39,7 +50,7 @@ const Portfolio = () => {
       github: 'https://github.com/mobinulislam143/module14Assignment',
     },
     {
-      id: 3,
+      id: 5,
       title: 'Id card',
       img: IMG2,
       description: 'Online student id card genterator',
@@ -66,7 +77,7 @@ const Portfolio = () => {
             <div className="portfolio__item-content">
               <h3>{pro.title}</h3>
               <p>{pro.description}</p>
-              <p>{pro.technologies}</p>
+              <p style={{marginTop:"8px"}}>Tech:  {pro.technologies}</p>
             </div>
             <div className="portfolio__item-cta">
               <a
