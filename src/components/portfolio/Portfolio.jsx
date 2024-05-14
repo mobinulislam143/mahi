@@ -4,6 +4,7 @@ import IMG2 from '../../assets/icard.png';
 import IMG4 from '../../assets/hmart.png';
 import IMG5 from '../../assets/trade.png';
 import IMG6 from '../../assets/it.png';
+import IMG3 from '../../assets/blog.png';
 import './portfolio.css';
 
 const Portfolio = () => {
@@ -17,6 +18,16 @@ const Portfolio = () => {
       technologies: 'React | Zustand | nodejs | Express js| Mongodb.',
       link: 'https://h-mart001.vercel.app/',
       github: 'https://github.com/mobinulislam143/ecommerceRestApi',
+    },
+    {
+      id: 2,
+      title: 'Blog Buzz',
+      img: IMG3,
+      description:
+        'Blog Website. Api request to read blog.',
+      technologies: 'Tailwind | Zustand | React.js | nodejs | Mongodb',
+      link: 'https://blogging-peach.vercel.app/',
+      github: 'https://github.com/mobinulislam143/blogging',
     },
     {
       id: 2,
