@@ -14,7 +14,7 @@ const Portfolio = () => {
       img: IMG4,
       description:
         'Full Stack E-commerce Website with ssl-commerze Payment gateway. Services: Login System, email Verification, Add cart, Add Wish, product Filtering using price, keyword, brand and category. There anyone can contact with admin in Contact Page.',
-      technologies: 'React | Zustand | nodejs | Express js| Mongodb',
+      technologies: 'React | Zustand | nodejs | Express js| Mongodb.',
       link: 'https://h-mart-shop.vercel.app/',
       github: 'https://github.com/mobinulislam143/ecommerceRestApi',
     },
