@@ -5,9 +5,9 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Intro from './components/intro/Intro';
 import Portfolio from './components/portfolio/Portfolio';
-import Testimonials from './components/testimonials/Testimonials';
 import Topbar from './components/topbar/Topbar';
 import Ostad from './components/certificate/Ostad';
+import GalleryPhoto from './components/testimonials/GalleryPhoto';
 
 
 const App = () => {
@@ -20,6 +20,7 @@ const App = () => {
       <Portfolio />
       {/* <Testimonials /> */}
       <Ostad/>
+      <GalleryPhoto/>
       <Contact />
       <Footer />
     </>
