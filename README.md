@@ -33,7 +33,7 @@
   git clone git@github.com:Meri-MG/portfolio---react.git
   ```
 
-- Navigate to `cd portfolio---react`  directory.
+- Navigate to `cd mahi`  directory.
 
 - To install all the app dependencies on the command line run
 - ```
@@ -47,7 +47,7 @@
 
 ## Author
 
-:woman: **Meri Gogichashvili**
+👷‍♂️: **Mobinul Islam Mahi**
 
 - [GitHub](https://github.com/mobinulislam143)
 - [LinkedIn](https://www.linkedin.com/in/mobinulislam143/)
