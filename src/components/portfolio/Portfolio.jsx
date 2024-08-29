@@ -5,6 +5,7 @@ import IMG4 from '../../assets/hmart.png';
 import IMG5 from '../../assets/trade.png';
 import IMG6 from '../../assets/it.png';
 import IMG3 from '../../assets/blog.png';
+import IMG7 from '../../assets/ponno.png';
 import './portfolio.css';
 
 const Portfolio = () => {
@@ -15,12 +16,22 @@ const Portfolio = () => {
       img: IMG4,
       description:
         'Full Stack E-commerce Website with ssl-commerze Payment gateway. Services: Login System, email Verification, Add cart, Add Wish, product Filtering using price, keyword, brand and category. There anyone can contact with admin in Contact Page.',
-      technologies: 'React | Zustand | nodejs | Express js| Mongodb.',
+      technologies: 'React | Zustand | nodejs | Express js| Mongodb.|ssl payment gateway',
       link: 'https://h-mart001.vercel.app/',
       github: 'https://github.com/mobinulislam143/ecommerceRestApi',
     },
     {
       id: 2,
+      title: 'Ponno Sheba',
+      img: IMG7,
+      description:
+        'I am developing a dynamic eCommerce platform using the MERN stack, inspired by Bikroy, where users can seamlessly create, post, and update products. The platform offers a user-friendly interface and robust backend to manage product listings, making it easy for individuals to buy and sell goods online.',
+      technologies: 'React | redux | nodejs | Express js| Mongodb.',
+      link: 'https://ponno-sheba.vercel.app/',
+      github: 'https://github.com/mobinulislam143/ponno_ecommerce_frontend.git',
+    },
+    {
+      id: 3,
       title: 'Blog Buzz',
       img: IMG3,
       description:
@@ -30,7 +41,7 @@ const Portfolio = () => {
       github: 'https://github.com/mobinulislam143/blogging',
     },
     {
-      id: 2,
+      id: 4,
       title: 'Trade Mark',
       img: IMG5,
       description:
@@ -40,7 +51,7 @@ const Portfolio = () => {
       github: 'https://github.com/mobinulislam143/frontendTrade',
     },
     {
-      id: 3,
+      id: 5,
       title: 'Fake Store',
       img: IMG1,
       description:
@@ -51,7 +62,7 @@ const Portfolio = () => {
     },
 
     {
-      id: 4,
+      id: 6,
       title: 'Home Agency It',
       img: IMG6,
       description:
@@ -61,7 +72,7 @@ const Portfolio = () => {
       github: 'https://github.com/mobinulislam143/module14Assignment',
     },
     {
-      id: 5,
+      id: 7,
       title: 'Id card',
       img: IMG2,
       description: 'Online student id card genterator',
