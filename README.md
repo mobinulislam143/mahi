@@ -1,7 +1,7 @@
 # Personal-Portfolio
 > This is personal portfolio website.
 
-![Portfolio](https://raw.github.com/Meri-MG/portfolio---react/master/src/assets/port.png)
+![Portfolio](https://i.postimg.cc/JnzQwpSb/Screenshot-3.png)
 
 ## Built With
 
@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-- [Live Demo](https://meri-mg-portfolio.netlify.app/)
+- [Live Demo](https://mahi-lac.vercel.app)
 
 
 # Getting Started
@@ -28,12 +28,12 @@
 
 - Choose a folder in your local machine where you want this repository to be copied
 
-- Clone this [repository](https://github.com/Meri-MG/portfolio---react) to your local machine 
+- Clone this [repository](https://github.com/mobinulislam143/mahi) to your local machine 
 - ```
   git clone git@github.com:Meri-MG/portfolio---react.git
   ```
 
-- Navigate to `cd portfolio---react`  directory.
+- Navigate to `cd mahi`  directory.
 
 - To install all the app dependencies on the command line run
 - ```
@@ -47,17 +47,14 @@
 
 ## Author
 
-:woman: **Meri Gogichashvili**
+👷‍♂️: **Mobinul Islam Mahi**
 
-- [GitHub](https://github.com/Meri-MG)
-- [LinkedIn](https://www.linkedin.com/in/meri-gogichashvili/)
+- [GitHub](https://github.com/mobinulislam143)
+- [LinkedIn](https://www.linkedin.com/in/mobinulislam143/)
 
 ## 🤝 Contributing
 - Contributions, issues, and feature requests are welcome!
-- Feel free to check the [issues page](https://github.com/Meri-MG/portfolio---react/issues).
 
 # Show your support
 Give a ⭐ if you like this project!
 
-# Acknowledgments
-Thanks to [EGATOR](https://www.youtube.com/watch?v=G-Cr00UYokU&list=WL&index=55&t=1845s) tutorial!
