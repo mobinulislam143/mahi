@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import CTA from './CTA';
 import HeaderSocials from './HeaderSocials';
 import './header.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Header = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            once: true,
+          });
+      
+    }, []);
   return (
     <header id="home">
       <div className="container header__container">
@@ -24,7 +33,7 @@ const Header = () => {
         />
 
         <CTA />
-        <a href="#contact" className="scroll__down">
+        <a href="#contact" className="scroll__down text-red-700">
           Scroll Down
         </a>
         <HeaderSocials />
